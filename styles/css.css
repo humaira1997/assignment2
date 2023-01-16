@@ -6,12 +6,14 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
 .headers {
     background: rgba(255, 144, 14, 0.1);
     position: absolute;
     width: 1920px;
     height: 1322px;
 }
+
 /* nav bar */
 nav {
     display: flex;
@@ -90,15 +92,17 @@ nav li {
 /* grid parts */
 .big-cont {
     display: flex;
-    
+
     align-items: center;
 }
+
 .cont-1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-top: 1407px;
     margin-left: 300px;
 }
+
 .cont-2 {
     width: 537px;
     height: 304px;
@@ -107,6 +111,13 @@ nav li {
     text-align: left;
     padding-left: 70px;
 }
+
+.cont-2-des {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
 .btn-primary2 {
     color: #FFFFFF;
     width: 180px;
@@ -123,11 +134,98 @@ nav li {
     margin-top: 15px;
     margin-bottom: 50px;
 }
+
 .image {
     width: 342px;
     height: 342px;
     border-radius: 8px;
     padding: 24px 24px;
 }
+
 /* Features you will love part */
+.feature {
+    width: 1440px;
+    height: 1059px;
+    color: #727272;
+    border: 1px solid gold;
+    margin-top: 130px;
+    margin-left: 230px;
+    margin-right: 230px;
+}
+
+/* hr {
+    width: 5px;
+    height: 106px;
+    background: #FF900E;
+    display: flex;
+} */
+.feature {
+    display: flex;
+    gap: 45px;
+}
+
+.f-cont-1 {
+    width: 586px;
+    height: 982px;
+    border: 1px solid gold;
+    margin-top: 35px;
+}
+
+.f-cont-2 {
+    width: 800px;
+    height: 1059px;
+    border: 1px solid gold;
+    justify-content: right;
+
+}
+
+.f-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.cont-2-des {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    text-align: left;
+}
+
+.f-img {
+    position: relative;
+    width: 708px;
+    height: 982px;
+    border-radius: 8px;
+    float: right;
+}
+
+.btn-primary3 {
+    width: 342px;
+    height: 200px;
+    border-radius: 8px;
+    border: 0;
+    background: #FF900E;
+    margin-right: 500px;
+    font-weight: 700;
+    font-size: 55px;
+    color: #FFFFFF;
+}
+
+.f-heading {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
+.f-parts {
+    width: 580px;
+    height: 146px;
+    box-shadow: 2px 2px 2px 2px;
+    border-radius: 5px;
+}
+
+.f-detail {
+    margin: 20px;
+}
 
