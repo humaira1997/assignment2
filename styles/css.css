@@ -92,7 +92,6 @@ nav li {
 /* grid parts */
 .big-cont {
     display: flex;
-
     align-items: center;
 }
 
@@ -303,4 +302,17 @@ nav li {
     text-align: center;
     color: #424242;
     padding-top: 38px;
+}
+
+/* media query */
+/* mobile device */
+@media only screen and (max-width:688px){
+    .cont-1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .big-cont{
+    
+        flex-direction: column;
+    }
 }
