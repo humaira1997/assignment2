@@ -1,0 +1,133 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&display=swap');
+
+/* common styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.headers {
+    background: rgba(255, 144, 14, 0.1);
+    position: absolute;
+    width: 1920px;
+    height: 1322px;
+}
+/* nav bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 228px;
+    margin-right: 240px;
+    margin-top: 50px;
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 45px;
+    font-style: normal;
+    text-align: center;
+    color: #131313;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 23px;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+/* banner */
+
+.banner-title {
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+    color: #131313;
+    margin-bottom: 30px;
+}
+
+.banner-des {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FF900E;
+    border: 0;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    padding: 20px 25px;
+    margin-left: 870px;
+    margin-right: 870px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.banner img {
+    width: 1440px;
+    height: 700px;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-bottom: 40px;
+}
+
+/* grid parts */
+.big-cont {
+    display: flex;
+    
+    align-items: center;
+}
+.cont-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 1407px;
+    margin-left: 300px;
+}
+.cont-2 {
+    width: 537px;
+    height: 304px;
+    margin-top: 1450px;
+    margin-right: 301px;
+    text-align: left;
+    padding-left: 70px;
+}
+.btn-primary2 {
+    color: #FFFFFF;
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FF900E;
+    border: 0;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    padding: 20px 25px;
+    margin-left: 0px;
+    margin-right: 658px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.image {
+    width: 342px;
+    height: 342px;
+    border-radius: 8px;
+    padding: 24px 24px;
+}
+/* Features you will love part */
+
