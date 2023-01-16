@@ -162,22 +162,25 @@ nav li {
 .feature {
     display: flex;
     gap: 45px;
+    margin-bottom: 30px;
 }
 
 .f-cont-1 {
     width: 586px;
     height: 982px;
-    border: 1px solid gold;
+    border: 1px;
     margin-top: 35px;
 }
 
 .f-cont-2 {
     width: 800px;
     height: 1059px;
-    border: 1px solid gold;
-    justify-content: right;
-
+    border: 1px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
 }
+
 
 .f-title {
     font-weight: 700;
@@ -193,22 +196,23 @@ nav li {
 }
 
 .f-img {
-    position: relative;
-    width: 708px;
+    position: absolute;
+    width: 700px;
     height: 982px;
     border-radius: 8px;
     float: right;
 }
 
 .btn-primary3 {
-    width: 342px;
-    height: 200px;
-    border-radius: 8px;
+    width: 300px;
+    height: 100px;
+    border-radius: 6px;
     border: 0;
     background: #FF900E;
-    margin-right: 500px;
+    margin-right: 455px;
+    margin-top: -180px;
     font-weight: 700;
-    font-size: 55px;
+    font-size: 35px;
     color: #FFFFFF;
 }
 
@@ -229,3 +233,74 @@ nav li {
     margin: 20px;
 }
 
+/* facts........ */
+.facts {
+    margin-left: 240px;
+    margin-top: 100px;
+}
+
+.awards {
+    display: flex;
+    width: 1350px;
+    justify-content: center;
+}
+
+.award {
+    width: 80%;
+    height: 240px;
+    border: 1px solid gold;
+    border-radius: 8px;
+    margin-top: 70px;
+    margin-left: 30px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* sponsors */
+.sponsors {
+    margin-left: 240px;
+    margin-top: 150px;
+    margin-bottom: 120px;
+}
+
+.sponsor {
+    width: 542px;
+    height: 129px;
+    text-align: center;
+    padding-left: 420px;
+}
+
+.s-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 5px;
+}
+
+.socials {
+    margin-left: 35px;
+    display: flex;
+    padding-top: 40px;
+    gap: 124px;
+}
+
+/* footer.... */
+
+.footer {
+    width: 1440px;
+    height: 100px;
+    margin-left: 240px;
+    background: #FFF4E7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.footer-p {
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #424242;
+    padding-top: 38px;
+}
